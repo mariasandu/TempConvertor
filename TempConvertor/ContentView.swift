@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    let scales = ["Celsius", "Fahrenheit", "Kelvin"]
+
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -18,6 +20,12 @@ struct ContentView: View {
         .padding()
     }
 }
+
+
+
+
+
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
